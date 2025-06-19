@@ -7,7 +7,7 @@ This project recreates the original UI shown in the challenge PDF using **only H
 
 ## 🌐 Live Preview
 
-> _Add your deployment link here once hosted (e.g., Netlify/Vercel)_
+🔗 [Click to see deployment](https://amr7503.github.io/IIT_BBSR_FRONTEND_BATTLE/)
 
 ---
 
@@ -29,7 +29,6 @@ This project recreates the original UI shown in the challenge PDF using **only H
 | 🧠 Features Section                 | 3 responsive cards with SVG icons and hover transitions                    |
 | 🖼️ Carousel (Swiper.js)            | 6 interactive product slides with pagination and navigation                |
 | 📈 Live Stats (Chart.js)           | 4 dynamic charts: Carbon, Energy Intensity, Footprint, Consumption         |
-| 🏢 Customer Logos Marquee          | Smooth infinite scroll with hover zoom effect                              |
 | 🧪 AOS Animations                   | Smooth scroll-in reveals across sections                                   |
 | 📱 Mobile Nav Menu                 | Hamburger icon + dropdown navigation                                       |
 | ✅ Brand Kit Selectors              | Custom checkbox UI with tick mark and form styling                         |
@@ -50,10 +49,49 @@ This project recreates the original UI shown in the challenge PDF using **only H
 - [Unsplash](https://unsplash.com/) – Stock product images
 
 ---
-
+'''
 ## 📁 Folder Structure
 frontend-battle/
 ├── index.html
-├── assets/
-│ └── homepage.mp4
 ├── README.md
+└── assets/
+└── homepage.mp4
+'''
+
+> 📦 All styles and logic are contained within `index.html`. No external build system required.
+
+---
+
+## 🎨 Design Philosophy
+
+- 🎯 **Clarity and Simplicity**: UI is kept clean and minimal using Tailwind utility-first classes.
+- 📱 **Responsiveness**: Built mobile-first with dynamic grids and stacked layouts.
+- 🌙 **Dark Mode**: Manually implemented via class toggles for CDN compatibility.
+- ⚡ **Performance**: Uses CDN-based assets; no build tools needed.
+- ✨ **Animations**: AOS.js adds elegance to scroll-based transitions.
+- 📊 **Real Data Visualizations**: Dynamic chart rendering via Chart.js based on mock data.
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to:
+
+- **Frontend Battle** team for organizing the challenge.
+- Developers behind **Tailwind CSS**, **Swiper.js**, **Chart.js**, and **AOS** for providing open-source tools.
+- Image and avatar sources: [Unsplash](https://unsplash.com/) and [RandomUser.me](https://randomuser.me/)
+
+---
+
+## 👤 Author
+
+- **Name**: Amaresh Swain  
+- **Email**: [amaresh7503@gmail.com](mailto:amaresh7503@gmail.com)  
+- **GitHub**: [amr7503](https://github.com/amr7503)
+
+---
+
+## 📜 License
+
+MIT © 2025 Amaresh Swain.  
+Free to use for learning, reference, or further development.
